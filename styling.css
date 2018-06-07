@@ -1,10 +1,20 @@
+body {
+	width: 50%;
+	background-color: black;
+	color: white;
+	background-image: url("images/tenor.gif");
+	font-style: italic;
+	
+}
+
 .sticky-header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: lightgray;
+    background-color: magenta;
     padding: 20px;
     font-size: 20px;
+	background-image: url("images/friis-facade.jpg")
 }
 
 .content {
@@ -22,8 +32,9 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: magenta;
     overflow: hidden;
+	
 }
 
 /* Style the links inside the navigation bar */
@@ -44,7 +55,7 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: light-blue;
     color: white;
 }
 
@@ -62,4 +73,8 @@ th, td {
 
 tr:nth-child(even) {
     background-color: #f2f2f2
+}
+
+img {
+	
 }
